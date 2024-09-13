@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ARPointCloudRecorder
+//  ARFrameRecorder
 //
 //  Created by Maitree Hirunteeyakul on 9/13/24.
 //

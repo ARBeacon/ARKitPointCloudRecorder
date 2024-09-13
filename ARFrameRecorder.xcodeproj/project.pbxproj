@@ -11,14 +11,17 @@
 		62EA0A652C9489F3006B0899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA0A642C9489F3006B0899 /* ContentView.swift */; };
 		62EA0A672C9489F5006B0899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EA0A662C9489F5006B0899 /* Assets.xcassets */; };
 		62EA0A6A2C9489F5006B0899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EA0A692C9489F5006B0899 /* Preview Assets.xcassets */; };
+		62EA0A712C948B28006B0899 /* ARFrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA0A702C948B28006B0899 /* ARFrameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		62EA0A5F2C9489F3006B0899 /* ARPointCloudRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPointCloudRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EA0A5F2C9489F3006B0899 /* ARFrameRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFrameRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EA0A622C9489F3006B0899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62EA0A642C9489F3006B0899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62EA0A662C9489F5006B0899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62EA0A692C9489F5006B0899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62EA0A702C948B28006B0899 /* ARFrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFrameManager.swift; sourceTree = "<group>"; };
+		62EA0A722C94A502006B0899 /* ARFrameRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ARFrameRecorder-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		62EA0A562C9489F3006B0899 = {
 			isa = PBXGroup;
 			children = (
+				62EA0A722C94A502006B0899 /* ARFrameRecorder-Info.plist */,
 				62EA0A612C9489F3006B0899 /* ARPointCloudRecorder */,
 				62EA0A602C9489F3006B0899 /* Products */,
 			);
@@ -43,7 +47,7 @@
 		62EA0A602C9489F3006B0899 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62EA0A5F2C9489F3006B0899 /* ARPointCloudRecorder.app */,
+				62EA0A5F2C9489F3006B0899 /* ARFrameRecorder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +59,7 @@
 				62EA0A642C9489F3006B0899 /* ContentView.swift */,
 				62EA0A662C9489F5006B0899 /* Assets.xcassets */,
 				62EA0A682C9489F5006B0899 /* Preview Content */,
+				62EA0A702C948B28006B0899 /* ARFrameManager.swift */,
 			);
 			path = ARPointCloudRecorder;
 			sourceTree = "<group>";
@@ -70,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62EA0A5E2C9489F3006B0899 /* ARPointCloudRecorder */ = {
+		62EA0A5E2C9489F3006B0899 /* ARFrameRecorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62EA0A6D2C9489F5006B0899 /* Build configuration list for PBXNativeTarget "ARPointCloudRecorder" */;
+			buildConfigurationList = 62EA0A6D2C9489F5006B0899 /* Build configuration list for PBXNativeTarget "ARFrameRecorder" */;
 			buildPhases = (
 				62EA0A5B2C9489F3006B0899 /* Sources */,
 				62EA0A5C2C9489F3006B0899 /* Frameworks */,
@@ -82,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = ARPointCloudRecorder;
+			name = ARFrameRecorder;
 			productName = ARPointCloudRecorder;
-			productReference = 62EA0A5F2C9489F3006B0899 /* ARPointCloudRecorder.app */;
+			productReference = 62EA0A5F2C9489F3006B0899 /* ARFrameRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 62EA0A5A2C9489F3006B0899 /* Build configuration list for PBXProject "ARPointCloudRecorder" */;
+			buildConfigurationList = 62EA0A5A2C9489F3006B0899 /* Build configuration list for PBXProject "ARFrameRecorder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62EA0A5E2C9489F3006B0899 /* ARPointCloudRecorder */,
+				62EA0A5E2C9489F3006B0899 /* ARFrameRecorder */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +144,7 @@
 			files = (
 				62EA0A652C9489F3006B0899 /* ContentView.swift in Sources */,
 				62EA0A632C9489F3006B0899 /* AppDelegate.swift in Sources */,
+				62EA0A712C948B28006B0899 /* ARFrameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,8 @@
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ARFrameRecorder-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +314,8 @@
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ARFrameRecorder-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62EA0A5A2C9489F3006B0899 /* Build configuration list for PBXProject "ARPointCloudRecorder" */ = {
+		62EA0A5A2C9489F3006B0899 /* Build configuration list for PBXProject "ARFrameRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62EA0A6B2C9489F5006B0899 /* Debug */,
@@ -338,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62EA0A6D2C9489F5006B0899 /* Build configuration list for PBXNativeTarget "ARPointCloudRecorder" */ = {
+		62EA0A6D2C9489F5006B0899 /* Build configuration list for PBXNativeTarget "ARFrameRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62EA0A6E2C9489F5006B0899 /* Debug */,
