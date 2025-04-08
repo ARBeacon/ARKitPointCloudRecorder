@@ -37,3 +37,5 @@ Transfer files via iTunes File Sharing.
 
 ## Acknowledgment
 This app idea and code are inspired by [CurvSurf/ARKitPointCloudRecorder](https://github.com/CurvSurf/ARKitPointCloudRecorder)
+
+_Note: This README.md was refined with the assistance of [DeepSeek](https://www.deepseek.com)_
