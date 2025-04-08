@@ -1,6 +1,7 @@
 # ARKitPointCloudRecorder
-
 An iOS app to capture and export ARKit raw feature points (identifiers and positions) during AR sessions.
+
+![RPReplay_Final1726306934](https://github.com/user-attachments/assets/96233bb5-d655-47bd-87e0-472385ce74d3)
 
 ## Overview
 This app records ARKit's [`rawFeaturePoints`](https://developer.apple.com/documentation/arkit/arframe/rawfeaturepoints) from ARFrames, including 3D coordinates and identifiers of detected feature points. Data is saved as JSON files for post-processing. Designed for analyzing feature point consistency across AR sessions.
